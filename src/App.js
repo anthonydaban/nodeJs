@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import img1 from './image1.jpg';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            First Website using Node.js! :)          </p>
+            Mr. Pogi ng Taytay Rizal! :)          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -17,6 +18,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
+          <img src={img1} className="App-img" alt="img" />
           </a>
         </header>
       </div>
